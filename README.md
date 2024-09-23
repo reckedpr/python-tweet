@@ -13,10 +13,10 @@ Fake tweet screenshot generator made in python using the `selenium` library. Cus
 ## How to use
 ### 1. Clone or Download the repo
 ```bash
-git clone https://github.com/reckedpr/python-menu
+git clone https://github.com/reckedpr/python-tweet
 ```
 #### OR:
-![Static Badge](https://img.shields.io/badge/download%20repo-29903b?style=for-the-badge&logoColor=white&link=https%3A%2F%2Fgithub.com%2Freckedpr%2Fpython-menu%2Farchive%2Frefs%2Fheads%2Fmain.zip)
+![Static Badge](https://img.shields.io/badge/download%20repo-29903b?style=for-the-badge&logoColor=white&link=https://github.com/reckedpr/python-tweet/archive/refs/heads/main.zip)
 
 ### 2. Open `tweetGenerator.py`
 ```python

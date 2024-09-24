@@ -6,7 +6,9 @@ Fake tweet screenshot generator made in python using the `selenium` library. Cus
 
 ## Features
 - Edit name and handle
-- Easy to change pfp
+- Change avatar
+- Popularity algorithm
+- Change date
 - Compatible with discord api wrappers
 - Easy implementation into projects
 
@@ -22,9 +24,9 @@ git clone https://github.com/reckedpr/python-tweet
 ```python
 # Command usage
 
-generateTweet(handle, name, tweet_text, avatar)
+generateTweet(handle, name, tweet_text, avatar, popularity)
 ```
-All parameters are to be strings, avatar must refer to a direct image link
+All parameters are to be strings except popularity, avatar must refer to a direct image link
 
 #### Example:
 
@@ -33,7 +35,8 @@ generateTweet(
     'elonmusk',
     'Elon Fucking Musk',
     'reckedpr is an absolute legend, holy shit',
-    'https://d1kd6h2y8iq4lp.cloudfront.net/avatars/elonmusk'
+    'https://d1kd6h2y8iq4lp.cloudfront.net/avatars/elonmusk',
+    34
 )
 ```
 

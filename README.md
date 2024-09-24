@@ -2,7 +2,7 @@
 Fake tweet screenshot generator made in python using the `selenium` library. Customizable infomation fields and easy implementation into other scripts. As of writing this is in very early beta and lacks a lot of features, I will be improving and optimising this in the future.
 
 \
-<img src="https://raw.githubusercontent.com/reckedpr/python-tweet/refs/heads/main/images/tweet-preview.png" width="90%" alt="Fake @elonmusk tweet">
+<img src="https://raw.githubusercontent.com/reckedpr/python-tweet/refs/heads/main/images/tweet-preview.png" width="100%" alt="Fake @elonmusk tweet">
 
 ## Features
 - Edit name and handle

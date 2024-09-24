@@ -104,7 +104,7 @@ def generateTweet(handle,name,tweet_text,avatar,popularity):
 
         input_field.clear()
         time.sleep(0.2)
-        for i in range(5):
+        for i in range(9):
             input_field.clear()
         input_field.send_keys(text)
 
@@ -158,7 +158,7 @@ def generateTweet(handle,name,tweet_text,avatar,popularity):
 
     avatar_field.clear()
     time.sleep(0.2)
-    for i in range(5):
+    for i in range(9):
         avatar_field.clear()
     avatar_field.send_keys(avatar)
 
@@ -199,7 +199,7 @@ def generateTweet(handle,name,tweet_text,avatar,popularity):
 
 if __name__ == '__main__':
     generateTweet('elonmusk',
-                'TTV Xx_Elon_xX',
+                'NOT elonmusk',
                 'reckedpr is an absolute legend, holy shit',
                 'https://d1kd6h2y8iq4lp.cloudfront.net/avatars/elonmusk',
-                12)
+                87)
